@@ -6,7 +6,7 @@ export default [
     src: {
       image: {
         type: 'png',
-        url: './statics/TB1WF1R0Ez1gK0jSZLeXXb9kVXa-99-99.png',
+        url: './static/TB1WF1R0Ez1gK0jSZLeXXb9kVXa-99-99.png',
       },
     },
     preload: true,
@@ -18,7 +18,7 @@ export default [
       image: {
         type: 'png',
         url:
-          './statics/TB1a11YoRFR4u4jSZFPXXanzFXa-109-263.png',
+          './static/TB1a11YoRFR4u4jSZFPXXanzFXa-109-263.png',
       },
     },
     preload: true,
@@ -30,7 +30,7 @@ export default [
       image: {
         type: 'png',
         url:
-          './statics/TB15Upxqk9l0K4jSZFKXXXFjpXa-750-1624.jpg',
+          './static/TB15Upxqk9l0K4jSZFKXXXFjpXa-750-1624.jpg',
       },
     },
     preload: true,
@@ -42,7 +42,7 @@ export default [
       image: {
         type: 'png',
         url:
-          './statics/TB1Xerd0AY2gK0jSZFgXXc5OFXa-184-175.png',
+          './static/TB1Xerd0AY2gK0jSZFgXXc5OFXa-184-175.png',
       },
     },
     preload: true,
@@ -54,12 +54,12 @@ export default [
       image: {
         type: 'png',
         url:
-          './statics/TB1LYwonSR26e4jSZFEXXbwuXXa-920-875.png',
+          './static/TB1LYwonSR26e4jSZFEXXbwuXXa-920-875.png',
       },
       json: {
         type: 'json',
         url:
-          './statics/3246284841596d87b60749e88e0e26cd.json',
+          './static/3246284841596d87b60749e88e0e26cd.json',
       },
     },
     preload: true,
@@ -71,12 +71,12 @@ export default [
       image: {
         type: 'png',
         url:
-          './statics/TB1ob_c0EY1gK0jSZFCXXcwqXXa-552-525.png',
+          './static/TB1ob_c0EY1gK0jSZFCXXcwqXXa-552-525.png',
       },
       json: {
         type: 'json',
         url:
-          './statics/dfefdd86474cded44bdc226549ae6d81.json',
+          './static/dfefdd86474cded44bdc226549ae6d81.json',
       },
     },
     preload: true,
