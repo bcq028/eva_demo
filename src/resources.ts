@@ -6,11 +6,11 @@ export default [
     src: {
       image: {
         type: 'png',
-        url: '../static/assets/ctrl/ctrl.png'
+        url: '../assets/ctrl/ctrl.png'
       },
       json :{
         type:'json',
-        url: '../static/assets/ctrl/ctrl.json'
+        url: '../assets/ctrl/ctrl.json'
       },
     },
     preload: true,
