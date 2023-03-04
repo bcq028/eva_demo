@@ -1,27 +1,19 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
-    "outDir": "docs",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noUnusedLocals": true,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "strict": true,
     "resolveJsonModule": true,
+    "isolatedModules": true,
     "esModuleInterop": true,
-    "removeComments": false,
-    "noEmitHelpers": true,
-    "importHelpers": true,
-    "sourceMap": false,
-    "downlevelIteration": true,
-    "noImplicitReturns": false,
+    "noEmit": true,
+    "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "lib": ["esnext", "dom"],
-    "types": ["node"],
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "noImplicitAny": true,
-    "target": "es5",
-    "allowJs": true,
-    "baseUrl": "."
+    "noImplicitReturns": true,
+    "skipLibCheck": true
   },
-  "include": ["./src/**/*.ts"]
+  "include": ["src"]
 }
