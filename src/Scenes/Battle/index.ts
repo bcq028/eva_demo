@@ -1,7 +1,7 @@
 import { GameObject, Scene } from "@eva/eva.js"
-import { Text } from '@eva/plugin-renderer-text'
-import { Buttons } from "../../GO/Buttons";
-import { Footer } from "../../GO/Footer";
+import { ButtonManager } from "../../GO/ButtonManager";
+import {  FooterManager } from "../../GO/FooterManager";
+import { BattleManager } from "./BattleManager";
 
 
 export const WINDOW_WIDTH=window.innerWidth
@@ -15,7 +15,6 @@ export const Battle=()=>{
             height:WINDOW_HEIGHT
         }
     });
-    scene.addChild(Buttons());
-    scene.addChild(Footer());
+    scene.addComponent(new BattleManager());
     return scene;
 }
